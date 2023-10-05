@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Ravi Helon</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+
+<body class="font-[Poppings] bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee] h-screen">
+
+  <header 
+    class="bg-white flex-col w-full h-full"
+    style="background-image: url(https://media.licdn.com/dms/image/D4D16AQFyuUfqkXpwMw/profile-displaybackgroundimage-shrink_350_1400/0/1689339545557?e=1701302400&v=beta&t=Hk0trF7pYZr40l9v7URvj42NU6Un1aF1u2v5tptUZdI);">
+    <nav class="hidden hover:flex justify-between items-center w-[92%] gap-[4vw] md:h-8 h-16">
+      <div class="flex font-bold gap-[4vw]">Ravi Helon</div>
+        <div 
+        class="hidden transition-all delay-75 z-10 static 
+        min-h-fill left-0 top-[-100%] w-auto md:flex items-center justify-center">
+        <ul class="flex flex-row items-center gap-[1vw] justify-center">
+          <li>
+            <a class="hover:text-emerald-500 h-[4vw]" href="./home/index.html">Home</a>
+          </li>
+          <li>
+            <a class="hover:text-emerald-500 h-[4vw]" href="./awesome_cv/index.html">Jornada</a>
+          </li>
+          <li>
+            <a class="hover:text-emerald-500 h-[4vw]" href="./skills/index.html">Habilidades</a>
+          </li>
+          <li>
+            <a class="hover:text-emerald-500 h-[4vw]" href="./contact/index.html">Contatos</a>
+          </li>
+        </ul>   
+      </div>
+      <div 
+        class="md:hidden visible transition-all delay-75 nav-links z-10 absolute
+        min-h-[4vh] left-0 top-[-100%] w-full flex items-center justify-center"
+        style="background-image: url(https://media.licdn.com/dms/image/D4D16AQFyuUfqkXpwMw/profile-displaybackgroundimage-shrink_350_1400/0/1689339545557?e=1701302400&v=beta&t=Hk0trF7pYZr40l9v7URvj42NU6Un1aF1u2v5tptUZdI);">
+        <ul class="flex flex-row items-center gap-[1vw] justify-center">
+          <li>
+            <a class="hover:text-emerald-500 h-[4vw]" href="./home/index.html">Home</a>
+          </li>
+          <li>
+            <a class="hover:text-emerald-500 h-[4vw]" href="./awesome_cv/index.html">Jornada</a>
+          </li>
+          <li>
+            <a class="hover:text-emerald-500 h-[4vw]" href="./skills/index.html">Habilidades</a>
+          </li>
+          <li>
+            <a class="hover:text-emerald-500 h-[4vw]" href="./contact/index.html">Contatos</a>
+          </li>
+        </ul> 
+      </div>
+
+      <div class="flex items-center gap-[4vw]">
+        <ion-icon onclick="onToggleMenu(this)"  name="menu-outline" class="z-20 text-3xl cursor-pointer md:hidden"></ion-icon>
+      </div>
+    </nav>
+  </header>
+<script src="app.js"> </script>
+<script>
+  const navLinks =document.querySelector('.nav-links')
+  const bgImg = document.querySelector('.bg-image')
+  function onToggleMenu(e){
+    e.name = e.name === 'menu-outline' ? 'close' : 'menu-outline'  
+    navLinks.classList.toggle('top-[0%]')
+    bgImg.classList.toggle('opacity-50')
+  }
+
+</script>
+</body>
+</html>

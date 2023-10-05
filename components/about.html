@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Ravi Helon</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body class="font-[Poppings] bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee] h-screen">
+
+  <header class="bg-white">
+    <!-- Navigation bar -->
+    <nav
+      class="relative flex w-full items-center justify-end bg-white py-2 text-neutral-600 shadow-lg hover:text-neutral-700 focus:text-neutral-700 dark:bg-neutral-600 dark:text-neutral-200 md:flex-wrap md:justify-start"
+      data-te-navbar-ref>
+      <div class="flex w-full flex-wrap items-center justify-between px-3">
+        <div class="flex items-center">
+          <!-- Hamburger menu button -->
+          <button
+            class="border-0 bg-transparent px-2 text-xl leading-none transition-shadow duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 dark:hover:text-white dark:focus:text-white lg:hidden"
+            type="button"
+            data-te-collapse-init
+            data-te-target="#navbarSupportedContentX"
+            aria-controls="navbarSupportedContentX"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <!-- Hamburger menu icon -->
+            <span class="[&>svg]:w-5">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="h-7 w-7">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+            </span>
+          </button>
+        </div>
+  
+        <!-- Navigation links -->
+        <div
+          class="!visible hidden grow basis-[100%] items-center lg:!flex lg:basis-auto"
+          id="navbarSupportedContentX"
+          data-te-collapse-item>
+          <ul
+            class="mr-auto flex gap-[4vw] flex-col lg:flex-row"
+            data-te-navbar-nav-ref>
+            <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
+              <a
+                class="block transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 [&.active]:text-black/90"
+                href="index.html"
+                data-te-nav-link-ref
+                data-te-ripple-init
+                data-te-ripple-color="light"
+                >Home</a
+              >
+            </li>
+            <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
+              <a
+                class="block transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 [&.active]:text-black/90"
+                href="Awesome_CV.html"
+                data-te-nav-link-ref
+                data-te-ripple-init
+                data-te-ripple-color="light"
+                >Jornada</a
+              >
+            </li>
+            <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
+              <a
+                class="block transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 [&.active]:text-black/90"
+                href="#!"
+                data-te-nav-link-ref
+                data-te-ripple-init
+                data-te-ripple-color="light"
+                >Habilidades</a
+              >
+            </li>
+            <li class="mb-2 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
+              <a
+                class="block transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 [&.active]:text-black/90"
+                href="#!"
+                data-te-nav-link-ref
+                data-te-ripple-init
+                data-te-ripple-color="light"
+                >Contato</a
+              >
+            </li>
+          </ul>
+        </div>  
+      </div>
+    </nav>
+
+    <!-- Hero section with background image, heading, subheading and button -->
+    <div
+      class="relative overflow-hidden bg-cover bg-no-repeat"
+      style="
+        background-position: 50%;
+        background-image: url('https://tecdn.b-cdn.net/img/new/slides/146.webp');
+        height: 350px;
+      ">
+      <div
+        class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed"
+        style="background-color: rgba(0, 0, 0, 0.75)">
+        <div class="flex h-full items-center justify-center">
+          <div class="px-6 text-center text-white md:px-12">
+            <h1 class="mb-6 text-5xl font-bold">Ravi Helon de Melo Serafim Ferreira</h1>
+            <h3 class="mb-8 text-3xl font-bold">Engenharia de Dados e TI</h3>
+            <button
+              type="button"
+              class="inline-block rounded border-2 border-neutral-50 px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
+              data-te-ripple-init
+              data-te-ripple-color="light">
+              Get started
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+<!-- Main Content -->
+<main class="container mx-auto py-8">
+    <section class="bg-white p-8 rounded shadow">
+        <h2 class="text-2xl font-semibold mb-4">About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel nisl vel nisl fermentum vestibulum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc molestie iaculis dolor, et sodales quam varius ut. Integer lobortis, tortor nec condimentum gravida, purus metus egestas odio, id efficitur metus tortor eu dui. Sed euismod felis ex, eget convallis justo gravida et. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc non viverra sapien. In vel felis eget nunc porttitor euismod. Aenean dictum sem lectus, non vulputate purus tristique a. Duis scelerisque ac sapien a dictum. Ut sed placerat mi, vitae congue justo. Aenean tempus mollis faucibus. Sed dignissim condimentum metus. Phasellus vitae sagittis lectus. Fusce sit amet dui nec risus euismod maximus in nec est. Etiam dolor enim, feugiat non rutrum eget, aliquam ut risus.</p>
+        <p>Praesent fermentum nisi vel nisl hendrerit convallis. Nunc dignissim lacus et placerat accumsan. Mauris efficitur aliquet ex, a tincidunt mi vestibulum quis. Aliquam volutpat in mi nec consectetur. Nulla eu justo egestas, condimentum justo quis, rhoncus nulla. Sed eget ligula sodales, molestie lacus sed, semper ligula. Suspendisse vel elit dapibus, sollicitudin arcu non, auctor felis. Etiam dui augue, eleifend quis augue ac, posuere sagittis mauris. Proin eget lectus ac nisl vehicula lacinia sed in nulla. Sed ornare erat vitae interdum rhoncus. Etiam scelerisque justo quis tincidunt dapibus. Mauris pulvinar felis magna, eget posuere dolor malesuada ut. Morbi ac est tempor, pharetra eros sed, placerat urna.</p>
+    </section>
+
+    <section class="bg-white p-8 rounded shadow mt-4">
+        <h2 class="text-2xl font-semibold mb-4">Services</h2>
+    </section>
+    <div>
+	<h1 class="counter-display">(..)</h1>
+	<button class="counter-minus">-</button>
+	<button class="counter-plus">+</button>
+    </div>
+</main>
+
+<!-- Footer -->
+<footer class="bg-gray-900 text-white py-4">
+    <div class="container mx-auto text-center">
+        &copy; Ravi Helon de Melo Serafim Ferreira
+    </div>
+</footer>
+
+<script src="app.js"> </script>
+
+</body>
+</html>
