@@ -1,6 +1,6 @@
 import { useSignal } from "@preact/signals";
 
-export default function Home() {
+export default function LandingPage() {
   return (
     <>
       <div
@@ -25,7 +25,7 @@ export default function Home() {
                 <li>
                   <a
                     class="hover:text-[#00FF00] text-[#3b93e6] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] text-3xl h-[4vw]"
-                    href="./home/index.html"
+                    href="./home"
                   >
                     Home
                   </a>
@@ -33,7 +33,7 @@ export default function Home() {
                 <li>
                   <a
                     class="hover:text-[#00FF00] text-[#3b93e6] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] text-3xl h-[4vw]"
-                    href="./awesome_cv/index.html"
+                    href="./cv"
                   >
                     Jornada
                   </a>
@@ -41,7 +41,7 @@ export default function Home() {
                 <li>
                   <a
                     class="hover:text-[#00FF00] text-[#3b93e6] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] text-3xl h-[4vw]"
-                    href="./skills/index.html"
+                    href="./skills"
                   >
                     Habilidades
                   </a>
@@ -49,7 +49,7 @@ export default function Home() {
                 <li>
                   <a
                     class="hover:text-[#00FF00] text-[#3b93e6] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] text-3xl h-[4vw]"
-                    href="./contact/index.html"
+                    href="./about/"
                   >
                     Contatos
                   </a>
