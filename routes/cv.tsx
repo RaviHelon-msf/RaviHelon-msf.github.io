@@ -1,12 +1,6 @@
 export default function CvPage() {
     return (
         <>
-            <head>
-                <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-                <title>file_1695836252577</title>
-                
-            </head>
-
             <body>
                 <p class="s1" style="padding-top: 4pt;padding-left: 127pt;text-indent: 0pt;line-height: 36pt;text-align: center;">
                     Ravi <span class="h1">Helon</span></p>
