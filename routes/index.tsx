@@ -33,7 +33,7 @@ export default function LandingPage() {
                 <li>
                   <a
                     class="hover:text-[#00FF00] text-[#3b93e6] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] text-3xl h-[4vw]"
-                    href="./cv"
+                    href={"./cv/" + navigator.language}
                   >
                     Jornada
                   </a>
