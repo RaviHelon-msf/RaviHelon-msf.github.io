@@ -1,12 +1,32 @@
-export default function Tcc() {
+
+export interface Role {
+    name?:string;
+    at?: string;
+    tags?: string[];
+    atrib?: string[];
+}
+
+
+const tcc: Role = {
+    name: 'Engenheiro de dados - Estagiário',
+    at: 'Universidade Federal de Campina Grande/LIEC',
+    tags: ['Data' , 'Python'],
+    atrib: 
+        ['Desenvolvimento de plataforma de testes', 
+        'Design dos experimentos'],
+}
+
+export default function Tcc(role?: Role) {
+    role = tcc
+
     return(
         <>
           <div class="">
-            <h1 class="font-outline flex items-center justify-center p-2 text-3xl font-extrabold text-[#008F11]">Data Engineer Intern</h1>
+            <h1 class="font-outline flex items-center justify-center p-2 text-3xl font-extrabold text-[#008F11]">{role.name}</h1>
             <p class="text.outline py-1 text-[#008f11]"><span class="text-[#003B00]">@</span> Universidade Federal de Campina Grande/LIEC</p>
             <p class="text.outline py-1 text-[#008f11]"><span class="text-[#003B00]">@</span> Petrobrás</p>
             <h2 class="py-1 text-base font-extralight text-[#00FF41]">Sistema para manutenção preditiva para motores elétricos a partir de dados de vibração utilizando técnicas de aprendizado de máquina.</h2>
-            <div class="flex w-full py-1">
+            <div class="flex w-full py-1 justify-between">
                 <ul class="list-disc pl-4 text-sm font-extralight text-[#00FF41]">
                     <li>
                     <p>Desenvolvimento de plataforma de testes</p>
@@ -36,7 +56,7 @@ export default function Tcc() {
                     <p>Apresentação, inclusive em contexto científico, dos resultado obtido</p>
                     </li>
                 </ul>
-                <ul class="w-[20%] text-left text-[#00FF41]">
+                <ul class="w-[15%] text-left text-[#00FF41]">
                     <li><button class="hover:animate-pulse">Data</button></li>
                     <li><button class="hover:animate-pulse">Python</button></li>
                     <li><button class="hover:animate-pulse">ML</button></li>
@@ -44,7 +64,7 @@ export default function Tcc() {
                     <li><button class="hover:animate-pulse">Power BI</button></li>
                 </ul>
                 </div>
-            <div class="flex justify-between px-32 py-1 text-center text-xs text-[#00FF41]"><span>may. 2017</span><span> jan. 2020</span></div>
+            <div class="flex justify-between px-[25%] py-1 text-center text-xs text-[#00FF41]"><span>may. 2017</span><span> jan. 2020</span></div>
           </div>
         </>
     )
