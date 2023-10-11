@@ -1,31 +1,32 @@
-
 export interface Role {
     name?:string;
     at?: string;
+    description?:string;
     tags?: string[];
     atrib?: string[];
 }
 
 
 const tcc: Role = {
-    name: 'Engenheiro de dados - Estagiário',
-    at: 'Universidade Federal de Campina Grande/LIEC',
-    tags: ['Data' , 'Python'],
+    name: 'Template role name',
+    at: 'Template employer',
+    description: 'template description',
+    tags: ['TemplateTag1' , 'TemplateTag2'],
     atrib: 
-        ['Desenvolvimento de plataforma de testes', 
-        'Design dos experimentos'],
+        ['TemplateAtrib1', 
+        'TemplateAtrib2'],
 }
 
-export default function Tcc(role?: Role) {
-    role = tcc
+export default function Entry(role: Role = tcc) {
+    if(role){role={...tcc,...role}}
 
     return(
         <>
           <div class="">
             <h1 class="font-outline flex items-center justify-center p-2 text-3xl font-extrabold text-[#008F11]">{role.name}</h1>
-            <p class="text.outline py-1 text-[#008f11]"><span class="text-[#003B00]">@</span> Universidade Federal de Campina Grande/LIEC</p>
+            <p class="text.outline py-1 text-[#008f11]"><span class="text-[#003B00]">@</span> {role.at}</p>
             <p class="text.outline py-1 text-[#008f11]"><span class="text-[#003B00]">@</span> Petrobrás</p>
-            <h2 class="py-1 text-base font-extralight text-[#00FF41]">Sistema para manutenção preditiva para motores elétricos a partir de dados de vibração utilizando técnicas de aprendizado de máquina.</h2>
+            <h2 class="py-1 text-base font-extralight text-[#00FF41]">{role.description}</h2>
             <div class="flex w-full py-1 justify-between">
                 <ul class="list-disc pl-4 text-sm font-extralight text-[#00FF41]">
                     <li>
