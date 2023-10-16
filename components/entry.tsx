@@ -17,8 +17,8 @@ const tcc: Role = {
     atrib: 
         ['TemplateAtrib1', 
         'TemplateAtrib2'],
-        sDate: 'Mon.YEAR',
-        eDate: 'Mon.YEAR',
+    sDate: 'Mon.YEAR',
+    eDate: 'Mon.YEAR',
 }
 
 export default function Entry(role: Role = tcc) {

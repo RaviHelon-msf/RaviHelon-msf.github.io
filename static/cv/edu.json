@@ -1,0 +1,13 @@
+{
+    "Uni": {
+        "name": "Engenheiro Eletricista",
+        "at": "Universidade Federal de Campina Grande",
+        "description": "Curso superior de destaque de engenharia elétrica pela UFCG e com ênfase em controle e automação.",
+        "tags": ["Programação", "Estatística", "TI", "Controle"],
+        "atrib": ["CRA de 7.70",
+                  "Estudos sobre engenharia, administração, economia, matemática, física, etc"],
+        "sDate": "Apr. 2014",
+        "eDate": "jan. 2020"
+  }
+}
+  

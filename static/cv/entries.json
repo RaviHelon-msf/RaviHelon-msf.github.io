@@ -1,6 +1,6 @@
 {
     "tcc": {
-        "name": "Engenheiro de dados - Estagiário",
+        "name": "Engenheiro de dados - Bolsista",
         "at": "Universidade Federal de Campina Grande/LIEC",
         "description": "Sistema para manutenção preditiva para motores elétricos a partir de dados de vibração utilizando técnicas de aprendizado de máquina.",
         "tags": ["Data", "Python", "ML", "ETL", "Power BI"],
@@ -8,6 +8,7 @@
           "Desenvolvimento de plataforma de testes",
           "Design dos experimentos",
           "Coleta e tratamento de dados",
+          "Engenharia de dados",
           "Escolha e avaliação de modelos para aprendizado de máquina",
           "Determinação de hiper-parâmetros para os modelos",
           "Fine-tuning dos modelos",
@@ -17,6 +18,52 @@
         ],
         "sDate": "may. 2017",
         "eDate": "jan. 2020"
-  }
+  },
+  "estagio": {
+        "name": "Cientista de dados - Estagiário",
+        "at": "Universidade Federal de Campina Grande/LIEC",
+        "description": "Pesquisa voltada para ALPR em rodovias.",
+        "tags": ["ML", "deep-Learning", "MATLAB"],
+        "atrib": [" Abordou questões de engenharia e científicas por meio de teorias matemáticas e técnicas estatísticas.",
+                  " Limpeza e processamento de dados brutos com diferentes tipos de software estatístico.",
+                  " Apresentação de resultados oralmente e por escrito para compartilhar os resultados das análises matemáticas"],
+        "sDate": "Jan. 2019",
+        "eDate": "Jan. 2020"
+  },
+  "PIBIC": {
+    "name": "Cientista de dados - Bolsista",
+    "at": "Universidade Federal de Campina Grande",
+    "description": "Pesquisa voltada identificação de artefatos metálicos na arcada dentária em imagens de tomografia",
+    "tags": ["ETL", "MATLAB"],
+    "atrib": ["Engenharia de dados por meio transfomação de imagens para evidenciar a presença de um corpo estranho .",
+              "Interface para identificação dos artefatos.",
+              "Apresentação de resultados oralmente e por escrito para compartilhar os resultados das análises matemáticas"],
+    "sDate": "may. 2017",
+    "eDate": "may. 2017"
+  },
+  "monStat": {
+    "name": "Monitor de Estatística",
+    "at": "Universidade Federal de Campina Grande",
+    "description": "Ajudar os alunos matriculados na disciplina de Probabilidade e Estatística",
+    "tags": ["Probabilidade", "Estatística"],
+    "atrib": ["Tirar dúvidas sobre conceitos de probabilidade e estatística",
+              "Resolver listas de exercícios",
+              "Auxílio ao professor encarregado pela disciplina"],
+    "sDate": "jan. 2017",
+    "eDate": "jul. 2017"
+  } ,
+  "monProg": {
+    "name": "Monitor de Técnicas de Programação",
+    "at": "Universidade Federal de Campina Grande",
+    "description": "Ajudar os alunos matriculados na disciplina de Técnicas de Programação",
+    "tags": ["Programação", "C++"],
+    "atrib": ["Tirar dúvidas sobre conceitos mais avançados de programação orientada a objeto",
+              "Resolver listas de exercícios",
+              "Elaboração e avaliação de listas de exercícios e apresentações",
+              "Auxílio ao professor encarregado pela disciplina"],
+    "sDate": "jan. 2016",
+    "eDate": "jan. 2017"
+  } 
+
 }
   
