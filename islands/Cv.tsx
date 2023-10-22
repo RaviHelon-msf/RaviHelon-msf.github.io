@@ -1,6 +1,6 @@
 import { Handlers } from "$fresh/server.ts";
-import { useState } from "https://esm.sh/preact@10.15.1/hooks";
-import Entry, {Role} from '$home/components/entry.tsx';
+import { useState } from "preact/hooks";
+import Entry, {Role} from '$home/components/cv/entry.tsx';
 
 import exp_data from "$home/static/cv/entries.json" with {type:"json"};
 import edu_data from "$home/static/cv/edu.json" with {type:"json"};

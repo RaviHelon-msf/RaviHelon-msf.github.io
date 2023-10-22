@@ -1,5 +1,4 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
-import Counter from "$home/islands/Counter.tsx";
 
 const NAMES = ["Alice", "Bob", "Charlie", "Dave", "Eve", "Frank"];
 
@@ -34,9 +33,6 @@ export default function Page({ data }: PageProps<Data>) {
           {results.map((name) => <li key={name}>{name}</li>)}
         </ul>
       </div>
-      <p>
-        The big event is happening <Counter target={date.toISOString()} />.
-      </p>    
     </>
   );
 }
