@@ -1,4 +1,5 @@
 import { useSignal } from "@preact/signals";
+import { ROUTE } from "global"
 
 export default function LandingPage() {
   return (
@@ -25,7 +26,7 @@ export default function LandingPage() {
                 <li>
                   <a
                     class="hover:text-[#00FF00] text-[#3b93e6] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] text-3xl h-[4vw]"
-                    href={"./cv/" + navigator.language}
+                    href={ROUTE.CV + navigator.language}
                   >
                     Currículo
                   </a>
@@ -33,7 +34,7 @@ export default function LandingPage() {
                 <li>
                   <a
                     class="hover:text-[#00FF00] text-[#3b93e6] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] text-3xl h-[4vw]"
-                    href='./skills'
+                    href={ROUTE.SKILLS}
                   >
                     Habilidades
                   </a>
@@ -41,7 +42,7 @@ export default function LandingPage() {
                 <li>
                   <a
                     class="hover:text-[#00FF00] text-[#3b93e6] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] text-3xl h-[4vw]"
-                    href="./projetos"
+                    href={ROUTE.PORTFOLIO}
                   >
                     Portfólio
                   </a>
@@ -49,7 +50,7 @@ export default function LandingPage() {
                 <li>
                   <a
                     class="hover:text-[#00FF00] text-[#3b93e6] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] text-3xl h-[4vw]"
-                    href="./about"
+                    href={ROUTE.CONTATO}
                   >
                     Contato
                   </a>

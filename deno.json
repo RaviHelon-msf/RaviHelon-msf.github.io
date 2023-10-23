@@ -10,6 +10,7 @@
   "lint": { "rules": { "tags": ["fresh", "recommended"] } },
   "imports": {
     "$home/": "./",
+    "global": "./components/global.config.ts",
     "$fresh/": "https://deno.land/x/fresh@1.5.2/",
     "preact": "https://esm.sh/preact@10.18.1",
     "preact/": "https://esm.sh/preact@10.18.1/",

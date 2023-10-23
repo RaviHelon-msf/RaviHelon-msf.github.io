@@ -7,6 +7,7 @@ export default function App({ Component }: AppProps) {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Ravi Helon</title>
+        <link rel="icon" type="image/x-icon" href="/myLogo-removebg-preview.png"/>
       </head>
       <body>
         <Component />
