@@ -9,7 +9,13 @@ export default function App({ Component }: AppProps) {
         <title>Ravi Helon</title>
         <link rel="icon" type="image/x-icon" href="/favicon.png"/>
       </head>
-      <body class="bg-[#0D0208]">
+      <body class="relative bg-[#0D0208]">
+        <div class="absolute inset-0 z-[-1]"
+        style="
+        background-position: 50%;
+        background-image: url('https://media.giphy.com/media/WoD6JZnwap6s8/giphy.gif');
+        opacity:0.15
+        "></div>
         <Component />
       </body>
     </html>
