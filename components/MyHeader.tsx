@@ -4,7 +4,9 @@ export function MyHeader() {
     return (
         <>
             <header class="flex h-[60px] min-w-full items-center justify-between bg-[#008F11] px-6 py-2 font-bold text-[#003b00]">
-                <img src="/favicon.png" alt="my Logo" class="h-[40px] w-[40px]" />
+                <a href="/">
+                    <img src="/favicon.png" alt="my Logo" class="h-[40px] w-[40px]" />
+                </a>
                 <nav class="flex flex-row items-center gap-[30px]">
                     <a href={ROUTE.CV + navigator.language} class="flex">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">

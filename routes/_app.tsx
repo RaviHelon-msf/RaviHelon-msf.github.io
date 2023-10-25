@@ -9,7 +9,7 @@ export default function App({ Component }: AppProps) {
         <title>Ravi Helon</title>
         <link rel="icon" type="image/x-icon" href="/favicon.png"/>
       </head>
-      <body>
+      <body class="bg-[#0D0208]">
         <Component />
       </body>
     </html>
