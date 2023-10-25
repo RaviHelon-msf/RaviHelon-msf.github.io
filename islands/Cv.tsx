@@ -13,7 +13,7 @@ export default function Cv() {
 
   return (
     <>
-      <div class="bg-[#0D0208] w-full p-[10%] flex flex-col gap-[50px]">
+      <div class="bg-[#0D0208] w-full py-[3%] px-[10%] flex flex-col gap-[50px]">
         <button class="text-[#008f11]" onClick={() => setActive((prevState) => !prevState)}> {isActive?"Experiência":"Educação"} </button>
         {isActive ? entries.map((item,index) => (<Entry {...item}/>)): edu.map((item,index) => (<Entry {...item}/>))}
       </div>

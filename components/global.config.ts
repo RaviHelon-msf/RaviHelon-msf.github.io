@@ -5,7 +5,7 @@ export const ROUTE = {
     CONTATO: '/contact',
     CV: "/cv/",
     SKILLS: "/skills",
-    PORTFOLIO: "/projetos",
+    PORTFOLIO: "/projects",
 };
   
 export const API_ENDPOINTS = {

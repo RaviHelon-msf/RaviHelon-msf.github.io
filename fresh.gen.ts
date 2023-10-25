@@ -4,24 +4,28 @@
 
 import * as $0 from "./routes/_404.tsx";
 import * as $1 from "./routes/_app.tsx";
-import * as $2 from "./routes/about/[name].tsx";
-import * as $3 from "./routes/about/index.tsx";
-import * as $4 from "./routes/api/data.ts";
+import * as $2 from "./routes/api/data.ts";
+import * as $3 from "./routes/contact/[name].tsx";
+import * as $4 from "./routes/contact/index.tsx";
 import * as $5 from "./routes/cv/[language].tsx";
 import * as $6 from "./routes/index.tsx";
-import * as $7 from "./routes/test.tsx";
+import * as $7 from "./routes/projects/index.tsx";
+import * as $8 from "./routes/skills/index.tsx";
+import * as $9 from "./routes/test.tsx";
 import * as $$0 from "./islands/Cv.tsx";
 
 const manifest = {
   routes: {
     "./routes/_404.tsx": $0,
     "./routes/_app.tsx": $1,
-    "./routes/about/[name].tsx": $2,
-    "./routes/about/index.tsx": $3,
-    "./routes/api/data.ts": $4,
+    "./routes/api/data.ts": $2,
+    "./routes/contact/[name].tsx": $3,
+    "./routes/contact/index.tsx": $4,
     "./routes/cv/[language].tsx": $5,
     "./routes/index.tsx": $6,
-    "./routes/test.tsx": $7,
+    "./routes/projects/index.tsx": $7,
+    "./routes/skills/index.tsx": $8,
+    "./routes/test.tsx": $9,
   },
   islands: {
     "./islands/Cv.tsx": $$0,
