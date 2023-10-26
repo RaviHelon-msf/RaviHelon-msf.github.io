@@ -10,13 +10,15 @@ export function MySkills () {
                 <figcaption class="opacity-100 text-center text-xl font-bold text-[#008F11]"> Habilidades Tecnicas: </figcaption>  
                 <figure class="relative">
                     <div 
-                        class="absolute inset-0 bg-center bg-no-repeat" 
+                        class="absolute inset-0 bg-center bg-no-repeat bg-contain md:bg-auto" 
                         style="
-                            background-image: url(/Cloudy.png); 
-                            background-size: auto;
-                            opacity: 12%;                            "
-                            ></div>
-                    <object data="/skills.svg" type="image/svg+xml" class ="opacity-100">
+                            background-image: url(/Cloudy.png);
+                            opacity: 12%;                            
+                            "></div>
+                    <object data="/skills.svg" type="image/svg+xml" class ="hidden md:block opacity-100">
+                        Your browser does not support SVG
+                    </object>
+                    <object data="/skills_small.svg" type="image/svg+xml" class ="md:hidden opacity-100">
                         Your browser does not support SVG
                     </object>
                 </figure>
