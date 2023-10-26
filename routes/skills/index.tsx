@@ -29,9 +29,17 @@ export function MySkills () {
                     Habilidades interpessoais: 
                 </h2> 
                 <ul class="list-disc">
-                    <li>
+                    <li class = "py-5 pl-3">
                         <p> <b>AI-Powered</b>: Sei usar o google e ferramentas de Inteligência Artifical</p>
-                        <p>"Nenhuma IA vai roubar seu emprego. Uma pessoa usando uma IA vai."</p>
+                        <p class="text-xs text-right pr-[5%]">"<i>Nenhuma IA vai roubar seu emprego. Uma pessoa usando uma IA vai.</i>" - Richard Baldwin</p>
+                    </li>
+                    <li class = "py-5 pl-3">
+                        <p> <b>Aprendizado</b>: Gosto de estudar e aprender sobre as mais diferentes áreas</p>
+                        <p class="text-xs text-right pr-[5%]">"<i>Excelência é uma arte conquistada através de prática e hábito. Não agimos corretamente porque temos virtude ou excelência, mas sim porque agimos corretamente. Nós somos o que repetidamente fazemos. Excelência, então, não é um ato, mas um hábito.</i>" - Aristóteles</p>
+                    </li>
+                    <li class = "py-5 pl-3">
+                        <p> <b>Mentalidade</b>: Tenho mentalidade prática e voltada a soluções</p>
+                        <p class="text-xs text-right pr-[5%]">"<i>Não fuja de coisas desagradáveis para abraçar coisas agradáveis. Coloque as mãos na terra. Enfrente as dificuldades e desenvolva uma nova felicidade.</i>" - Thich Nhat Hanh</p>
                     </li>
                 </ul>
                 <h2 class="mt-4 text-center text-xl font-bold text-[#008F11]"> 
