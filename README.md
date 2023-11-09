@@ -1,5 +1,13 @@
 # RaviHelon-msf.github.io
+
+This is my website =)
+
+The purpose of this repository is to showcase some of my personal projects as well as some of my portfoil and capabilities to anyone who'd be interested in working with me.
+
+
 Meu site =)
+
+A ideia desse repositório é servir de portfólio geral para meus projetos pessoais e de showcase para quem quiser trabalhar em algum projeto comigo.
 
 
 ### Understanding project structure
@@ -9,7 +17,6 @@ This code uses:
 1. [Deno](https://deno.land/) as runtime
 2. [Preact](https://preactjs.com/) as rendering engine
 3. [Fresh](https://fresh.deno.dev/) as meta framework.
-4. [Deco.cx](https://www.deco.cx/) as CMS, A/B Tester and Analytics
 
 To better encapsulate the store's code and separate it from framework specific
 code, all HTML generator code was placed into `components` folder, whereas all
