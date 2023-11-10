@@ -21,7 +21,7 @@ const tcc: Role = {
     eDate: 'Mon.YEAR',
 }
 
-export default function Entry(role: Role = tcc) {
+export function Entry(role: Role = tcc) {
     if(role){role={...tcc,...role}}
 
     return(
@@ -51,3 +51,5 @@ export default function Entry(role: Role = tcc) {
         </>
     )
 }
+
+export default Entry;
