@@ -7,7 +7,7 @@ import * as $1 from "./routes/_app.tsx";
 import * as $2 from "./routes/_middleware.ts";
 import * as $3 from "./routes/contact/[name].tsx";
 import * as $4 from "./routes/contact/index.tsx";
-import * as $5 from "./routes/cv/[language].tsx";
+import * as $5 from "./routes/cv/index.tsx";
 import * as $6 from "./routes/index.tsx";
 import * as $7 from "./routes/projects/index.tsx";
 import * as $8 from "./routes/skills/index.tsx";
@@ -22,7 +22,7 @@ const manifest = {
     "./routes/_middleware.ts": $2,
     "./routes/contact/[name].tsx": $3,
     "./routes/contact/index.tsx": $4,
-    "./routes/cv/[language].tsx": $5,
+    "./routes/cv/index.tsx": $5,
     "./routes/index.tsx": $6,
     "./routes/projects/index.tsx": $7,
     "./routes/skills/index.tsx": $8,
