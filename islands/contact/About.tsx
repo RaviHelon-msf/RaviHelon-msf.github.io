@@ -23,7 +23,8 @@ export function ProjectForm() {
   }
 
   const submitObjective = (e) => {
-    setParties((prevParties) => [...prevParties, objective]);
+    e.preventDefault();
+    setObjectives((prevParties) => [...prevParties, objective]);
     setObjective('')
   }
 
@@ -41,37 +42,43 @@ export function ProjectForm() {
                   type="text"
                   value={projectName}
                   onInput={handleProject}
-                  class="bg-[#0D0208] border border-[#003b00]"
+                  class="bg-[#0D0208] border border-[#003b00] py-[1px] px-[5px]"
                 />
               </label>
-              <button type="submit" class="border border-[#0d0208] hover:border-[#003b00] w-[60px] h-[25px] text-center justify-center">
-                Enviar
+              <button 
+                type="submit" 
+                class="border border-[#0d0208] hover:border-[#003b00] w-[60px] h-[25px] text-center justify-center"
+                >
+                  Enviar
               </button>
             </form>
           </>
       ) : (
         <>
-          <h1 class="w-full font-bold text-center text-3xl h-[50px]" > Project: { projectName } </h1>
-          <section class="flex flex-row w-full px-[20px]">
-            <div class="flex flex-col w-[50%]" >
-              <p> Data de início: TBD </p>
-              <p> Data de conclusão: TBD </p>
-              <h2> Objetivos: </h2>
-              <ol>{objectives.map((objective, index) => (
-                  <li>{party}</li>
+          <h1 class="w-full font-bold text-center text-3xl h-[50px] bg-[#0D0208]" > Project: { projectName } </h1>
+          
+          <section class="flex flex-row w-full min-h-[1000px] px-[20px] bg-[#0D0208] justify-between overflow-hidden">
+            
+            <div class="flex flex-col w-[50%] gap-3 pt-[20px]">
+              <p class = "pt-[20px]"> Data de início: TBD </p>
+              <p class = "pt-[20px]"> Data de conclusão: TBD </p>
+              <h2 class = "pt-[20px]"> Objetivos: </h2>
+              <ol class = "flex flex-col list-disc pt-0 ml-[10px] pl-[10px] gap-2">{objectives.map((obj, index) => (
+                  <li>{obj}</li>
               ))}</ol>
             </div>
-            <aside class="flex flex-col w-[25%]">
-              <form onSubmit={submitObjective}>
-                <label>
-                  Project Name:
+
+            <aside class="w-[25%] bg-white shadow-xl shadow-white pt-[20px] border-l">
+              <form onSubmit={submitObjective} class="items-center flex flex-col gap-4">
+                <label class="flex flex-col">
+                  <p>Objetivo: </p>
                   <input
                     type="text"
-                    value={Objectives[-1]}
+                    value={objective}
                     onInput={handleObjectives}
+                    class="bg-[#0D0208] border border-[#003b00] w-full py-[1px] px-[5px]"
                   />
                 </label>
-                <button type="submit">Submit</button>
               </form>
             </aside>
           </section>
