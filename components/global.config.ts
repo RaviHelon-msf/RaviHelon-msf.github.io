@@ -3,7 +3,7 @@
 export const ROUTE = {
     HOME: '/',
     CONTATO: '/contact',
-    CV: "/cv/",
+    CV: "/cv",
     SKILLS: "/skills",
     PORTFOLIO: "/projects",
 };
