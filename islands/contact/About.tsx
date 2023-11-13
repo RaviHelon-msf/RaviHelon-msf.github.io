@@ -13,7 +13,7 @@ export function ProjectForm() {
   const [techStacks, setTechStacks] = useState(['Versionamento: github', 'CI/CD: github', 'Container: Docker', 'Project Manager: Github', 'Database: postgreSQL']);
   const [techStack, setTechStack] = useState("");
   
-  const [custos, setCustos] = useState(['Meu contrato - R$ 500,00']);
+  const [custos, setCustos] = useState(['Meu contrato - R$ 200,00']);
   const [custo, setCusto] = useState("");
   
   const [timelines, setTimelines] = useState(['tbd', 'tbd', 'tbd']);
@@ -77,11 +77,10 @@ export function ProjectForm() {
           </>
       ) : (
         <>      
-          
           <h1 class="w-full font-bold text-center text-3xl h-[50px]" > 
             Adicione suas Especificações 
           </h1>    
-          <section class="flex flex-row w-full min-h-[500px] px-[20px] py-[40px] justify-between overflow-hidden">
+          <section id="pdfElement" class="flex flex-row w-full min-h-[500px] px-[20px] py-[40px] justify-between overflow-hidden">
             
             <div class="bg-[#0D0208] flex flex-col w-[70%] gap-3 pt-[20px]">
               <h1 class="w-full font-bold text-center text-6xl h-[50px] bg-[#0D0208]" > Project: { projectName } </h1>
@@ -223,6 +222,7 @@ export function ProjectForm() {
               </form>
             </aside>
           </section>
+          <p> Geração de PDF não está funcionando no momento. Por favor, use a função <b> ctrl + p </b> do teclado e me mande resultado por e-mail</p>
         </>
       )}
     </main>
