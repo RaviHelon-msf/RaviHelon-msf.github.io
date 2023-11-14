@@ -1,4 +1,5 @@
 import MyHeader from "$home/components/MyHeader.tsx";
+import MyFooter from "$home/components/MyFooter.tsx";
 
 export function MySkills () {
 
@@ -116,6 +117,7 @@ export function MySkills () {
                 </ul>
             </section>
 
+            <MyFooter />
         </>
     )
 

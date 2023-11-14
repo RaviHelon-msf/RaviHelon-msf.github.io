@@ -4,6 +4,7 @@ import { useState } from "preact/hooks";
 import Entry, { Role } from '$home/components/cv/entry.tsx';
 import Cv from "$home/islands/Cv.tsx";
 import MyHeader from "$home/components/MyHeader.tsx";
+import MyFooter from "$home/components/MyFooter.tsx";
 
 interface PageProps {
   params: {
@@ -37,7 +38,10 @@ export function CvPage(params: PageProps) {
     return (
       <>
         <MyHeader />
+
         <Cv {...params.data}/>
+
+        <MyFooter />
       </>
     
     ) ;

@@ -13,6 +13,7 @@ import * as $7 from "./routes/skills/index.tsx";
 import * as $8 from "./routes/test.tsx";
 import * as $$0 from "./islands/Cv.tsx";
 import * as $$1 from "./islands/contact/About.tsx";
+import * as $$2 from "./islands/projects/Github.tsx";
 
 const manifest = {
   routes: {
@@ -29,6 +30,7 @@ const manifest = {
   islands: {
     "./islands/Cv.tsx": $$0,
     "./islands/contact/About.tsx": $$1,
+    "./islands/projects/Github.tsx": $$2,
   },
   baseUrl: import.meta.url,
 };
