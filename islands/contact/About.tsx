@@ -83,7 +83,7 @@ export function ProjectForm() {
           <section id="pdfElement" class="flex flex-row w-full min-h-[500px] px-[20px] py-[40px] justify-between overflow-hidden">
             
             <div class="bg-[#0D0208] flex flex-col w-[70%] gap-3 pt-[20px]">
-              <h1 class="w-full font-bold text-center text-6xl h-[50px] bg-[#0D0208]" > Project: { projectName } </h1>
+              <h1 class="w-full font-bold text-center md:text-6xl text-xl h-[50px] bg-[#0D0208]" > Project: { projectName } </h1>
               <p class = "pt-[20px] font-semibold"> Data de início: TBD </p>
               <p class = "pt-[20px] font-semibold"> Data de conclusão: TBD </p>
               <h2 class = "pt-[20px] font-extrabold text-2xl"> Objetivos: </h2>
@@ -124,7 +124,7 @@ export function ProjectForm() {
 
             <aside class="w-[25%] bg-gradient-to-b from-[#0D0208] via-transparent to-[#0D0208] bg-opacity-5 pt-[50px] border-[#0D0208] gap-10 flex flex-col px-[1%]">
               
-              <h1 class="w-full font-bold text-center text-xl"> Especificações: </h1>
+              <h1 class="w-full font-bold text-center md:text-xl text-sm"> Detalhes: </h1>
               
               <form onSubmit={(e) => submitItem(setObjective, setObjectives, objective, e)} class="items-center flex flex-col gap-4">
                 <label class="flex flex-col">

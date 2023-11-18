@@ -54,7 +54,7 @@ export function MyGithubProjects() {
                             <li key={repo.name} class="flex flex-col px-[10%] py-[1%] border border-[#003B00] hover:border-[#008f11] text-[#008f11] hover:text-[#00ff41]">
                                 <strong class="font-outline flex items-center justify-center p-2 text-3xl font-extrabold">{repo.name}</strong>
                                 <p class="text.outline py-1">{repo.description}</p>
-                                <a href={repo.url} target="_blank" rel="noopener noreferrer" class="border rounded-xl w-[200px] h-[30px] hover:border-white border-[#008f11] text-center">
+                                <a href={repo.url} target="_blank" rel="noopener noreferrer" class="border rounded-xl md:w-[200px] w-[100px] md:h-[30px] hover:border-white border-[#008f11] text-center">
                                     View on GitHub
                                 </a>
                             </li>
